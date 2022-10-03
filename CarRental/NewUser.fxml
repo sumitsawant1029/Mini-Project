@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="392.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="414.0" fitWidth="663.0" layoutX="-173.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../th%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="78.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome User !!!" wrappingWidth="218.90951538085938">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Username :-" />
+      <Text layoutX="63.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Password :-" wrappingWidth="98.13673400878906" />
+      <Text layoutX="63.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password:-" />
+      <Text layoutX="63.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :-" />
+      <Text layoutX="63.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Of Birth :-" />
+      <TextField layoutX="198.0" layoutY="57.0" />
+      <TextField layoutX="198.0" layoutY="87.0" />
+      <TextField layoutX="198.0" layoutY="124.0" />
+      <PasswordField layoutX="198.0" layoutY="155.0" />
+      <PasswordField layoutX="198.0" layoutY="188.0" />
+      <Button layoutX="123.0" layoutY="219.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Create Account" />
+   </children>
+</AnchorPane>
